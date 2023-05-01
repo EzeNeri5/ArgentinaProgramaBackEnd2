@@ -9,9 +9,9 @@ import lombok.Setter;
 
 @Entity
 @Getter @Setter
-class TipoEducacion {
+public class TipoEducacion {
 
-     @Id
+    @Id
     @GeneratedValue(strategy=GenerationType.SEQUENCE)
     private Long id;
     private String nombre;

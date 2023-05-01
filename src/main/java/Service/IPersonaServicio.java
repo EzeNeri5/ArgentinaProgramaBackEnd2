@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public interface IPersonaServicio {
+    
     public List<Persona> getPersonas();
 
     public void savePersona (Persona perso);
