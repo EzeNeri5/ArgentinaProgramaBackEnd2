@@ -1,5 +1,5 @@
 FROM amazoncorretto:17-alpine-jdk
 
-COPY target/Final-0.0.1-SNAPSHOT.war app.war
+COPY target/Final-0.0.1-SNAPSHOT.jar app.jar
 
-ENTRYPOINT {"java","-war","/Final-0.0.1-SNAPSHOT.war"}
+ENTRYPOINT {"java","-jar","/Final-0.0.1-SNAPSHOT.jar"}
